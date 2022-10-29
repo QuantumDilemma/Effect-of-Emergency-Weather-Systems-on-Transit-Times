@@ -62,7 +62,7 @@ scatter_base <- ggplot(snow_df,
 print(scatter_base)
 ```
 
-![](Effect-of-emergency-weather-systems-on-transit-times_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](Effect-of-emergency-weather-systems-2_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 ``` r
 #add cutpointot the plot
@@ -72,7 +72,7 @@ scatter_cutpoint <- scatter_base +
 print(scatter_cutpoint)
 ```
 
-![](Effect-of-emergency-weather-systems-on-transit-times_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](Effect-of-emergency-weather-systems-2_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ``` r
 #plot best fit lines for each group to check for discontinuity
@@ -84,7 +84,7 @@ print(scatter_fit)
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](Effect-of-emergency-weather-systems-on-transit-times_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](Effect-of-emergency-weather-systems-2_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 ``` r
 #calculate IKbandwidth
@@ -110,7 +110,7 @@ scatter_bw <- scatter_cutpoint +
 print(scatter_bw)
 ```
 
-![](Effect-of-emergency-weather-systems-on-transit-times_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](Effect-of-emergency-weather-systems-2_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 ``` r
 #plot local linear regression model
